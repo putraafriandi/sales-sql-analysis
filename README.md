@@ -1,8 +1,8 @@
-# sales-sql-analysis
+# Sales Performance Analysis to Identify Revenue Growth Opportunities
 
 ## Objective
-This project aims to analyze sales performance using SQL by examining revenue trends, customer behavior, and product performance. The objective is to generate actionable insights that support data-driven decision-making.
-Sales Performance Analysis using SQL to analyze revenue, customer behavior, and product performance.
+This project aims to analyze sales performance to identify key revenue drivers, high-value customers, and growth opportunities.
+The goal is to provide actionable insights that can help improve business performance.
 
 ## Datasets
 The dataset consists of transactional data, including:
@@ -97,15 +97,20 @@ ORDER BY order_month;
 Insight: Measures month-over-month revenue growth to evaluate business performance trends.
 
 ## Key Insight
+- A small group of customers contributes a significant portion of total revenue, indicating a strong dependency on high-value customers.
+- Certain product categories generate high revenue despite lower sales volume, suggesting higher profit margins.
+- Revenue shows inconsistent monthly trends, which may indicate seasonality or unstable demand patterns.
+- Average order value can be improved by targeting high-spending customer segments.
 
-- Revenue fluctuates across months, indicating inconsistent sales performance.
-- A small group of customers contributes a significant portion of total revenue.
-- Some product categories generate high revenue despite lower sales volume.
-- Monthly growth analysis shows both growth and decline periods, indicating potential seasonality or business variability.
-
+  
 ## Conclusion
 
 The analysis shows that business performance is influenced by both customer purchasing behavior and product distribution.
-
 Focusing on high-value customers and optimizing high-performing product categories can help improve overall revenue growth and business performance.
+
+## Business Recommendations
+- Focus on retaining high-value customers through loyalty programs or personalized offers.
+- Increase marketing efforts on high-performing product categories to maximize revenue.
+- Analyze low-performing months to identify potential causes and improve consistency.
+- Implement upselling or bundling strategies to increase average order value.
 
